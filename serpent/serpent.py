@@ -734,6 +734,7 @@ command_description_mapping = {
     "record_inputs": "Start the input recorder",
     "dashboard": "Launch the dashboard",
     "object_recognition": "Perform object recognition on collected frames"
+
 }
 
 if __name__ == "__main__":

@@ -11,7 +11,6 @@ class ExecutableGameLauncher(GameLauncher):
         super().__init__(**kwargs)
 
     def launch(self, **kwargs):
-        executable_path = kwargs.get("executable_path")
 
         if executable_path is None:
             raise GameLauncherException("An 'executable_path' kwarg is required...")
